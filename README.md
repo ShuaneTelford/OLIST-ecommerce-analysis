@@ -99,7 +99,7 @@ Include the database diagram here
 </details>
 
 ## Final Dashboard
-![](https://s10.gifyu.com/images/Sf08L.gif)
+![](https://github.com/ShuaneTelford/OLIST-ecommerce-analysis/blob/main/Dashboard.gif)
 
 ## Conclusion
 
