@@ -29,7 +29,8 @@ Include the database diagram here
 - Power BI
 
 <details>
-  <summary>## Methodology</summary>
+  <summary>Methodology</summary>
+  
   1. **Data Acquisition and Initial Exploration**
     - Acquire dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data). The dataset contains various CSV files related to OLIST's e-commerce activities from late 2016 to the end of 2017.
     - Each CSV file was examined to understand its contents and structure.
