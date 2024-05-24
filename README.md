@@ -99,7 +99,7 @@ Include the database diagram here
 </details>
 
 ## Final Dashboard
-  ![Dashboard](https://s10.gifyu.com/images/Sf08L.gif)
+![](https://s10.gifyu.com/images/Sf08L.gif)
 
 ## Conclusion
 
