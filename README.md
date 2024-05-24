@@ -34,16 +34,16 @@ Database Diagram:
   <summary><h2>Methodology</h2></summary>
   
   1. **Data Acquisition and Initial Exploration**
-    - Acquire dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data). The dataset contains various CSV files related to OLIST's e-commerce activities from late 2016 to the end of 2017.
-    - Each CSV file was examined to understand its contents and structure.
+     - Acquire dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data). The dataset contains various CSV files related to OLIST's e-commerce activities from late 2016 to the end of 2017.
+     - Each CSV file was examined to understand its contents and structure.
   
-  2. **Database Setup**
+  3. **Database Setup**
     - Data was imported into SSMS.
     - On import, primary keys and appropriate data types were prescribed to the necessary columns for each table to ensure data integrity and later calculations.
     - Foreign keys were assigned to established relationships between tables.
     - Records without the appropriate/missing primary --> foreign relation were removed, accounting for approximately 1.5% of the data
      
-  3. **Data Analysis and Query Generation**
+  4. **Data Analysis and Query Generation**
     - Order Volume Analysis
       - Analysed order volumes on a daily, weekly, and monthly basis.
       - Breakdown of order volumes by state and city.
@@ -62,7 +62,7 @@ Database Diagram:
     - Payment Type Analysis
       - Investigated the share of different payment types for each state.
   
-  4. **Stored Procedure Generation**
+  5. **Stored Procedure Generation**
 
 | Stored Procedure Name   | User Inputs                                                                                                                                                       | Description                                                                                                                                                                                                         |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
