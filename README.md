@@ -38,31 +38,31 @@ Database Diagram:
      - Each CSV file was examined to understand its contents and structure.
   
   3. **Database Setup**
-    - Data was imported into SSMS.
-    - On import, primary keys and appropriate data types were prescribed to the necessary columns for each table to ensure data integrity and later calculations.
-    - Foreign keys were assigned to established relationships between tables.
-    - Records without the appropriate/missing primary --> foreign relation were removed, accounting for approximately 1.5% of the data
+     - Data was imported into SSMS.
+     - On import, primary keys and appropriate data types were prescribed to the necessary columns for each table to ensure data integrity and later calculations.
+     - Foreign keys were assigned to established relationships between tables.
+     - Records without the appropriate/missing primary --> foreign relation were removed, accounting for approximately 1.5% of the data
      
-  4. **Data Analysis and Query Generation**
-    - Order Volume Analysis
-      - Analysed order volumes on a daily, weekly, and monthly basis.
-      - Breakdown of order volumes by state and city.
-    - Customer-Seller Matching Analysis
-      - Evaluated customer-seller matches by location, from city to state levels.
-      - Generated summary cards to show the total shares of matches.
-    - Revenue Analysis
-      - Conducted monthly revenue analysis at both city and state levels.
-      - Calculated gross revenue, cost of goods sold (COGS), net value, and monthly revenue share at the city and state levels.
-    - Late Delivery Analysis
-      - Analysed monthly late delivery distributions at the state level.
-      - Produced summary cards highlighting monthly late deliveries.
-    - Product Category Analysis
-      - Identified monthly the most profitable products by state and city and the most profitable products overall.
-      - Created a query which ranked product categories by volume.
-    - Payment Type Analysis
-      - Investigated the share of different payment types for each state.
+  5. **Data Analysis and Query Generation**
+     - Order Volume Analysis
+       - Analysed order volumes on a daily, weekly, and monthly basis.
+       - Breakdown of order volumes by state and city.
+     - Customer-Seller Matching Analysis
+       - Evaluated customer-seller matches by location, from city to state levels.
+       -  Generated summary cards to show the total shares of matches.
+     - Revenue Analysis
+       - Conducted monthly revenue analysis at both city and state levels.
+       - Calculated gross revenue, cost of goods sold (COGS), net value, and monthly revenue share at the city and state levels.
+     - Late Delivery Analysis
+       - Analysed monthly late delivery distributions at the state level.
+       - Produced summary cards highlighting monthly late deliveries.
+     - Product Category Analysis
+       - Identified monthly the most profitable products by state and city and the most profitable products overall.
+       - Created a query which ranked product categories by volume.
+     - Payment Type Analysis
+       - Investigated the share of different payment types for each state.
   
-  5. **Stored Procedure Generation**
+  7. **Stored Procedure Generation**
 
 | Stored Procedure Name   | User Inputs                                                                                                                                                       | Description                                                                                                                                                                                                         |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ Database Diagram:
 
 
   5. **Power BI Dashboard Creation**
-    - Import data from raw OLIST CSV files and clean and transform data to appropriate types like done in SSMS
+     - Import data from raw OLIST CSV files and clean and transform data to appropriate types like done in SSMS
 
   | Visual                                  | Description                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
