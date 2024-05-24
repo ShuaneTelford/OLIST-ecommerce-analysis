@@ -61,13 +61,14 @@ Include the database diagram here
   
   4. **Stored Procedure Generation**
 
-     | Stored Procedure Name  | User Inputs                                                                                               | Description                                                                                                                                                                |
-|------------------------|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| GetLateDeliveries      | - startDate   - endDate   - period ('daily' or 'monthly')   - state (optional)   - city (optional)   - rankStart (optional)   - rankEnd (optional)   - option (0 or 1, use with rank range)  | Provides the volume of late deliveries based on the user's specified start and end dates, chosen time delimitation, and geographical or rank preferences. |
-| GetOrderVolumes        | - startDate   - endDate   - period ('daily' or 'monthly')   - state (optional)   - city (optional)   - option_state (0 or 1)         | Provides the volume of orders based on the user's specified start and end dates, chosen time delimitation, and geographical preferences.                               |
-| GetPopularCategories   | - startDate   - endDate   - period ('daily' or 'monthly')   - state (optional)   - city (optional)   - rankStart (optional)   - rankEnd (optional)  | Generates the order volume of product categories based on the user's specified start and end dates, chosen time delimitation, and geographical or rank preferences. |
-| GetOrderVolumesByRank  | - startDate   - endDate   - period ('daily' or 'monthly')   - state (optional)   - city (optional)   - rankStart (optional)   - rankEnd (optional)   - option (0 or 1, use with rank range)  | Generates a ranked list of cities or states and order volumes based on the user's specified start and end dates, chosen time delimitation, and geographical or rank preferences. |
-| GetRevenueByLocation   | - startDate   - endDate   - period ('daily' or 'monthly')   - state (optional)   - city (optional)                                                                   | Generates the NET Revenue based on the user's specified start and end dates, chosen time delimitation, and geographical preferences.                                   |
+| Stored Procedure Name   | User Inputs                                                                                                                                                       | Description                                                                                                                                                                                                         |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| GetLateDeliveries       | - startDate<br>- endDate<br>- period ('daily' or 'monthly')<br>- state (optional)<br>- city (optional)<br>- rankStart (optional)<br>- rankEnd (optional)<br>- option (0 or 1, use with rank range)                | Provides the volume of late deliveries based on the user's specified start and end dates, chosen time delimitation, and geographical or rank preferences.                                                         |
+| GetOrderVolumes         | - startDate<br>- endDate<br>- period ('daily' or 'monthly')<br>- state (optional)<br>- city (optional)<br>- option_state (0 or 1)                                                                                            | Provides the volume of orders based on the user's specified start and end dates, chosen time delimitation, and geographical preferences.                                                                           |
+| GetPopularCategories    | - startDate<br>- endDate<br>- period ('daily' or 'monthly')<br>- state (optional)<br>- city (optional)<br>- rankStart (optional)<br>- rankEnd (optional)                                                                  | Generates the order volume of product categories based on the user's specified start and end dates, chosen time delimitation, and geographical or rank preferences.                                               |
+| GetOrderVolumesByRank   | - startDate<br>- endDate<br>- period ('daily' or 'monthly')<br>- state (optional)<br>- city (optional)<br>- rankStart (optional)<br>- rankEnd (optional)<br>- option (0 or 1, use with rank range)                      | Generates a ranked list of cities or states and order volumes based on the user's specified start and end dates, chosen time delimitation, and geographical or rank preferences.                                 |
+| GetRevenueByLocation    | - startDate<br>- endDate<br>- period ('daily' or 'monthly')<br>- state (optional)<br>- city (optional)                                                                                                                      | Generates the NET Revenue based on the user's specified start and end dates, chosen time delimitation, and geographical preferences.                                                                             |
+
 
   5. **Power BI Dashboard Creation**
     - Import data from raw OLIST CSV files and clean and transform data to appropriate types like done in SSMS
@@ -97,7 +98,7 @@ Include the database diagram here
 </details>
 
 ## Final Dashboard
-![Alt Text](https://imgur.com/a/veebnR4)
+![Alt Text](https://s10.gifyu.com/images/Sf08L.gif)
 
 ## Conclusion
 
