@@ -21,7 +21,9 @@ This project centres around the realistic business problem of warehouse creation
 ## Data Description (Find the dataset [here](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data))
 
 The OLIST dataset captures a snapshot of e-commerce activities from late 2016 to the end of 2017. It includes information regarding customers, sellers, locations, orders, payment, product categories, delivery logistics, and product reviews. The length of time allows the data set to be suitable for trend and seasonality analysis. 
-Include the database diagram here
+
+Database Diagram:
+![](https://github.com/ShuaneTelford/OLIST-ecommerce-analysis/blob/main/Database%20Diagram.png)
 
 ## Tools Used
 - SQL Server Management Studio (SSMS)
